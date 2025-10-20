@@ -1,6 +1,8 @@
 <?php
-class NumberChecker  {
 
+namespace App;
+
+class NumberChecker  {
 
 	public function __construct(private int $number){}
 
